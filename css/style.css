@@ -266,6 +266,10 @@ nav.main-nav a:hover::after { width: 100%; }
 .card-fan[data-n="4"] .fan-card:nth-child(3) { transform: rotate(6deg) translateX(40px); z-index: 3; }
 .card-fan[data-n="4"] .fan-card:nth-child(4) { transform: rotate(17deg) translateX(120px); z-index: 4; }
 
+.card-fan[data-n="3"] .fan-card:nth-child(1) { transform: rotate(-13deg) translateX(-95px); z-index: 1; }
+.card-fan[data-n="3"] .fan-card:nth-child(2) { transform: rotate(0deg) translateX(0); z-index: 2; }
+.card-fan[data-n="3"] .fan-card:nth-child(3) { transform: rotate(13deg) translateX(95px); z-index: 3; }
+
 .card-fan.spread .fan-card:nth-child(1) { transform: rotate(-8deg) translateX(-270px) translateY(-10px); }
 .card-fan.spread .fan-card:nth-child(2) { transform: rotate(-3deg) translateX(-95px) translateY(-25px); }
 .card-fan.spread .fan-card:nth-child(3) { transform: rotate(3deg) translateX(95px) translateY(-25px); }
@@ -461,6 +465,10 @@ footer.site-footer {
   .card-fan[data-n="4"] .fan-card:nth-child(2) { transform: rotate(-4deg) translateX(-20px); }
   .card-fan[data-n="4"] .fan-card:nth-child(3) { transform: rotate(4deg) translateX(20px); }
   .card-fan[data-n="4"] .fan-card:nth-child(4) { transform: rotate(14deg) translateX(55px); }
+  .card-fan[data-n="3"] .fan-card { width: 130px; height: 180px; padding: 14px; }
+  .card-fan[data-n="3"] .fan-card:nth-child(1) { transform: rotate(-11deg) translateX(-45px); }
+  .card-fan[data-n="3"] .fan-card:nth-child(2) { transform: rotate(0deg) translateX(0); }
+  .card-fan[data-n="3"] .fan-card:nth-child(3) { transform: rotate(11deg) translateX(45px); }
   .newsletter-box { padding: 30px; }
 }
 
