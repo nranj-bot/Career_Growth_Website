@@ -449,7 +449,51 @@ footer.site-footer {
 .legal-content h2 { margin-top: 2em; }
 .legal-content { max-width: 780px; }
 
-/* ---- Responsive ---- */
+/* ---- Founder stat cards ---- */
+.stat-card {
+  text-align: center;
+  padding: 30px 20px;
+}
+.stat-card .stat-number {
+  font-family: var(--font-display);
+  font-size: 2.4rem;
+  color: var(--color-accent);
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+.stat-card .stat-label {
+  font-size: 0.88rem;
+  color: var(--color-text-soft);
+}
+
+/* ---- Book / speaking spotlight ---- */
+.book-cover {
+  aspect-ratio: 2 / 3;
+  background: linear-gradient(150deg, var(--color-burgundy), var(--color-burgundy-dark));
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  color: #fff;
+  font-family: var(--font-display);
+  box-shadow: 0 20px 45px rgba(0,0,0,0.22);
+}
+.book-cover .book-title { font-size: 1.6rem; font-weight: 700; margin-bottom: 10px; }
+.book-cover .book-sub { font-size: 0.85rem; opacity: 0.85; font-style: italic; }
+
+.pull-quote {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: var(--color-text);
+  border-left: 3px solid var(--color-accent);
+  padding-left: 24px;
+  margin: 30px 0;
+}
 @media (max-width: 900px) {
   .hero .container { grid-template-columns: 1fr; }
   .card-fan { height: 320px; margin-top: 20px; }
